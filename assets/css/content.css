@@ -1,0 +1,24 @@
+main {
+    padding: 2rem;
+    font-family: 'Alegreya Sans', sans-serif;
+}
+
+main p:first-letter {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+
+main p:first-child:first-letter {
+    font-size: 20rem;
+    line-height: 2rem;
+    text-shadow: .25rem .25rem 0 #ccc;
+}
+
+main p:first-child:first-line {
+    font-family: 'Stalemate', sans-serif;
+    font-size: 2rem;
+    line-height: 2rem;
+    color: maroon;
+}
+
